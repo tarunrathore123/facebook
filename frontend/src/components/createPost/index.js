@@ -2,7 +2,6 @@ import { Feeling, LiveVideo, Photo } from "../../svg";
 import UserMenu from "../header/userMenu";
 import "./style.css";
 export default function CreatePost({ user, setVisible }) {
-  console.log(user.picture);
   return (
     <div className="createPost">
       <div className="createPost_header">
